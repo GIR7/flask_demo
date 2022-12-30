@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+  </head>
+  <body>
+    Hi there! Today is {{var_time}}. <br />
+
+    <br />Who is on duty: <br />
+    {% for data in var_name %} {{data}} {% endfor %} <br />
+    <br />Today's tasks: <br />
+    <table border="1">
+      {% for key,value in task.items() %}
+      <tr>
+        <td>{{key}}:</td>
+        <td>{{value}}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </body>
+</html>
