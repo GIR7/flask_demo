@@ -1,0 +1,3 @@
+# flask_demo
+Learning a few basic stuff about Flask. Jinja2...
+Creating 3 simple rendered pages include index page, submit a form page and result page.
